@@ -89,7 +89,7 @@ if(glow && !prefersReducedMotion && matchMedia("(pointer:fine)").matches){
 ==============================*/
 
 const menuButton = document.getElementById("menuButton");
-const visitButtons = document.querySelectorAll("#visitButton");
+const visitButtons = document.querySelectorAll(".btn-visit");
 
 if(menuButton){
 
